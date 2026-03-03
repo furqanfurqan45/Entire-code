@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 26px;
+}
+.img{
+    position: relative;
+    right:190px;
+}
+main{
+    background-image:url(https://www.ultraedit.com/wp-content/uploads/2023/01/1-HERO-IMAGE-1.png);
+    width: 100vw;
+    height: 100vh;
+    filter: opacity(1);
+    margin-left: 0px;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.pa{
+    font-size: 24px;
+}
+.box1{
+    display: flex;
+    color: white;
+    width: 240px;
+    height: 60px;
+    position: relative;
+    left: 80px;
+    top: 120px;
+    background-color: deepskyblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-weight: 900;
+    font-size: 22px;
+    cursor: pointer;
+}
+.box2{
+    display: flex;
+    color: white;
+    border: 3px solid white;
+    position: relative;
+    width: 240px;
+    height: 54px;
+    left: 340px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    top: 59px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.ancor{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 80px;
+}
+.video{
+    display: flex;
+    width: 560px;
+    height: 380px;
+    position: relative;
+    left: 700px;
+    bottom: 320px;
+}
+.para{
+    color: white;
+    position: relative;
+    bottom: 335px;
+    left: 714px;
+    font-weight: bold;
+    font-size: 22px;
+}

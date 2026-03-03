@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 14px;
+    height: 134px;
+    margin-top: 10px;
+}
+.image{
+    height: 134px;
+     width: 234px;
+     border-radius: 12px;
+}
+.img{
+   height: 134px;
+  width: 234px;
+  object-fit: cover;
+   border-radius: 12px;
+}
+.content{
+    margin-left: 20px;
+}

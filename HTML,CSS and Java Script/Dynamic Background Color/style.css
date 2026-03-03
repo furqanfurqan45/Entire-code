@@ -1,0 +1,26 @@
+.box{
+    width: 98vw;
+    height: 14vh;
+    border: 2px solid black;
+    margin-top:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn1{
+    background: linear-gradient(to right,red 0%,rgb(255, 208, 0) 25%,rgb(183, 0, 255) 50%,rgb(57, 2, 255) 75%);
+    margin-top: 20px;
+    border-radius: 18px;
+    border: none;
+    width: 80px;
+    height: 34px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn1:hover{
+    transform: scale(1.2); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

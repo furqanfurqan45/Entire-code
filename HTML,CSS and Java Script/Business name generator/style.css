@@ -1,0 +1,14 @@
+ul li{
+    list-style: none;
+    padding: 7px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: aqua;
+    border-radius: 18px;
+}
+.image{
+    position: relative;
+    right: 60px;
+}
